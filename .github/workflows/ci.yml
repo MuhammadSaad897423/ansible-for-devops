@@ -141,3 +141,4 @@ jobs:
           playbook: ${{ matrix.playbook }}
           distro: ${{ matrix.distro }}
           test_idempotence: ${{ matrix.test_idempotence }}
+          # - playbook: deployments-rolling.yml.updated
